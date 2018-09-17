@@ -116,12 +116,6 @@ public class MainActivity extends AppCompatActivity implements IView, BrowseClic
         super.onStart();
     }
 
-    @Override
-    protected void onStop() {
-        unregisterReceiver(musicReceiver);
-        super.onStop();
-    }
-
     class MusicBroadcastReceiver extends BroadcastReceiver {
         @Override
         public void onReceive(Context context, Intent intent) {
