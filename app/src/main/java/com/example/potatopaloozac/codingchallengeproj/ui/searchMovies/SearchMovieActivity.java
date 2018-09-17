@@ -19,7 +19,6 @@ import com.example.potatopaloozac.codingchallengeproj.ui.MainActivity;
 public class SearchMovieActivity extends AppCompatActivity implements SearchInterface {
 
     private EditText searchTitle_ET, searchYear_ET, searchDirector_ET, searchGenre_ET;
-    private Button searchTitle_BT, searchYear_BT, searchDirector_BT, searchGenre_BT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +29,6 @@ public class SearchMovieActivity extends AppCompatActivity implements SearchInte
         searchYear_ET = findViewById(R.id.searchYear_ET);
         searchDirector_ET = findViewById(R.id.searchDirector_ET);
         searchGenre_ET = findViewById(R.id.searchGenre_ET);
-
-        searchTitle_BT = findViewById(R.id.searchTitle_BT);
-        searchYear_BT = findViewById(R.id.searchYear_BT);
-        searchDirector_BT = findViewById(R.id.searchDirector_BT);
-        searchGenre_BT = findViewById(R.id.searchGenre_BT);
     }
 
     public void onClickHandler(View view) {
