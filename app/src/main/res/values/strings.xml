@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CodingChallengeProj</string>
+    <string name="welcome">Welcome to NinnYu\'s\nMovie Database!!!</string>
+    <string name="welcome_desc">What would you like to do?</string>
+    <string name="browse_BT">Browse</string>
+    <string name="search_BT">Search</string>
+    <string name="playMusic_BT">Play Music</string>
+    <string name="stopMusic_BT">Stop Music</string>
+    <string name="year">Released In:\t</string>
+    <string name="director">Directed By:\t</string>
+    <string name="genre">Genres:\t</string>
+    <string name="searchByTitle">Search by Title Only</string>
+    <string name="searchByYear">Search by Year Only</string>
+    <string name="searchByDirector">Search by Director Only</string>
+    <string name="searchByGenre">Search by Genre Only</string>
+</resources>
